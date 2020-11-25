@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile{
+    border-radius: 8px !important;
+    font-size: 22px;
+}
+.card-border{
+    border-radius: 8px !important;
+}
+.profile-body{
+    border-radius: 0 0 8px 8px !important;
+    background-image: url("../img/profile/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+th,td{
+    font-size: 18px;
+}
+
+@media screen and (max-width:480px){
+    .profile{
+        font-size: 20px;
+    }
+    th,td{
+        font-size: 15px;
+    }
+}
+
+/* farm edit  */
+.error{
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 0px;
+}
+.label{
+    font-size: 18px;
+}
+.farmedit-bg{
+    background-image: url('../img/farm/2.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:480px){
+    .profile{
+        font-size: 20px;
+    }
+    .label{
+        font-size: 15px !important;
+    }
+}

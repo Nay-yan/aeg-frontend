@@ -1,0 +1,14 @@
+
+.p-fixed{
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+}
+.buttom{
+    background-color: transparent !important;
+    border: none !important;
+    /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)  !important; */
+}
+.buttom:focus{
+    outline: none !important;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/farm-edit.css">
+    <title>Farm</title>
+
+</head>
+<body>
+    <div class="farmedit-bg">
+        <section class="container">
+            <div class="row vh-100 justify-content-center">
+                <div class="col-md-8 col-lg-6 col-xl-4">
+                    <div class="card border-0 profile-body mt-3 card-border shadow">
+                      <div class="card-header h4 bg-success text-white profile border-0">
+                          Farm Edit 
+                          <span class="badge badge-light float-right">id-numer</span>
+                      </div>
+                      <div class="card-body shadow-sm profile-body shadow">
+                          <form action="" name="form" onsubmit="return sumit()">
+                              <div class="form-group">
+                                  <label for="" class="h5 label">Plot size</label>
+                                  <input type="number" class="form-control" id="plot-size" placeholder="Number">
+                                  <span id="plot-error" class="text-danger"></span>
+                              </div>
+                              <div class=" form-group">
+                                  <label for="" class="h5 label">Green time</label>
+                                  <input type="text" class="form-control" id="green-time" placeholder="green time">
+                                  <span id="green-error" class="text-danger"></span>
+                              </div>
+                              <div class=" form-group">
+                                  <label for="" class="h5 label">Longitude</label>
+                                  <input type="number" class=" form-control" id="longitude" placeholder="Number">
+                                  <span id="long-error" class="text-danger"></span>
+                              </div>
+                              <div class=" form-group">
+                                  <label for="" class="h5 label">Latitude</label>
+                                  <input type="number" class=" form-control" id="latitude" placeholder="Number">
+                                  <span id="lati-error" class="text-danger"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="inlineFormCustomSelect" class="h5 label">Crop</label>
+                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                      <option selected disabled>Choose...</option>
+                                      <option value="1">One</option>
+                                      <option value="2">Two</option>
+                                      <option value="3">Three</option>
+                                    </select>
+                                </div>
+                              <button type="submit" class="btn btn-success float-right shadow">Confirm</button>
+                          </form>
+                      </div>
+                    </div>
+                
+                </div>
+            </div>
+          </section>
+    </div>
+    
+
+
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./js/farm-edit.js"></script>
+</body>
+</html>

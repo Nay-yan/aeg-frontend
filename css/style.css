@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input:focus{
+    outline: none;
+    box-shadow:none !important;
+}
+.pass-eye:focus{
+    outline: none;
+    box-shadow:none !important;
+}
+.font-respon{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:780px){
+    .font-respon{
+        font-size: 15px !important;
+    }
+}
